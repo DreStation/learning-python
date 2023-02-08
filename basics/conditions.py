@@ -25,7 +25,7 @@ def main():
             result = 1
         case "two" | "three":
             result = (2, 3)
-        case _:
+        case _: # Default case
             result = -1
     print(result)
 

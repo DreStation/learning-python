@@ -47,11 +47,11 @@ print("concat this " + str(123))
 def my_function():
     # Tell it to affect the var globally
     global my_str
-    my_str = "def"
+    my_str = "bruh"
     print(my_str)
     
-my_function() # "def"
-print(my_str) # Normally "🐍 Sss!", but now is "def"
+my_function() # "bruh"
+print(my_str) # Normally "🐍 Sss!", but now is "bruh"
 
 # Unassigning a variable/deleting
 del my_str
