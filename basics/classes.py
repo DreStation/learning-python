@@ -5,7 +5,7 @@ class Gun():
 
         while (self.magazine > 0):
             self.magazine -= 1
-            # print("💥🔫 Bam!")
+            print("💥🔫 Bam!")
 
 # Child class
 class Kalashnikov(Gun):
@@ -15,9 +15,9 @@ class Kalashnikov(Gun):
         self.name = name
         self.type = type
 
-        if (type == "assault rifle"):
+        if type == "assault rifle":
             self.magazine = 30
-        if (type == "machine gun"):
+        if type == "machine gun":
             self.magazine = 75
 
     # Add new shooting functionality
