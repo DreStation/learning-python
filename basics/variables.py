@@ -1,7 +1,7 @@
 # Naming convention: snake_case
 
 # Data types
-my_int = 5;
+my_int = 5
 my_float = 8.8
 my_str = "🐍 Sss!"
 my_bool = True
