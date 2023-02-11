@@ -21,21 +21,21 @@ while True:
     reversed_char_list = list(str)
     reversed_char_list.reverse()
 
-    isPalindrome = True
+    is_palindrome = True
 
     # Loop thru lists and compare char at index
     for i in range(len(char_list)):
         if char_list[i] != reversed_char_list[i]:
-            isPalindrome = False
+            is_palindrome = False
 
-    if (isPalindrome):
+    if (is_palindrome):
         print(str + " is a palindrome")
     else:
         print(str + " is not a palindrome")
 
 
 # Alternative way
-def is_palindrome(str):
-    if str == str[::-1]:
-        return True
-    return False
+# def is_palindrome(str):
+#     if str == str[::-1]:
+#         return True
+#     return False
