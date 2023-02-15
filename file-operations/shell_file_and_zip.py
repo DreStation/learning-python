@@ -6,7 +6,7 @@ from zipfile import ZipFile
 
 def create_file(file_name):
     file = open(file_name, "w+")
-    file.write("🐍 Sss!")
+    file.write("I'd put a snake emoji here but it breaks unicode :(")
 
 def backup_file(file_name):
     if (path.exists(file_name)):
@@ -38,6 +38,10 @@ def zip_file(file_name):
         print("Error: cannot find file \"%s\""% file_name)
 
 def main():
+    # Set file-operations as the current directory
+    # Otherwise it uses the root directory and breaks things
+    os.chdir("file-operations")
+    
     create_file("snake.txt")
     backup_file("snake.txt")
     rename_file("snake.txt", "new_snake.txt")
