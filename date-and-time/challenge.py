@@ -20,9 +20,7 @@ while True:
         print("That's not a number!")
         continue
 
-    # Pass args to calendar
     count = 0
-
     # Loop thru a list of weeks in a month
     for week in calendar.monthcalendar(year, month):
         if week[weekday] != 0: # If weekday is not 0, it means it's in that week
