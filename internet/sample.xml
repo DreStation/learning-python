@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<person>
+    <firstname>Joe</firstname>
+    <lastname>Mama</lastname>
+    <age>25</age>
+    <skill name="Fishing"/>
+    <skill name="Python"/>
+</person>
